@@ -6,7 +6,7 @@ We ask you to write an app that uses our Gini Bank SDK to extract payment inform
 
 In the [Resources](#resources) section, we listed links to our documentation, source code, and our example app. You are invited to use all of those resources to integrate the Gini Bank SDK into your app.
 
-Please use the simplest integration option, which is called Screen API. This allows you to configure the SDK and launch it by starting an activity for result.
+Please use the simplest integration option, which is called Screen API. This allows you to configure the SDK, set a delegate, and launch the SDK by presenting a view controller.
 
 You don't have to utilise all features of the SDK. Use only the basic feature, which is taking a picture of a single page and retrieving the payment information.
 
@@ -30,9 +30,10 @@ Good luck solving this challenge!
 * When selecting an invoice then show the saved payment information.
 
 # Resources
-* Guide: https://developer.gini.net/gini-mobile-android/bank-sdk/sdk 
-* Source code: https://github.com/gini/gini-mobile-android/tree/main/bank-sdk 
-* Example app: https://github.com/gini/gini-mobile-android/tree/main/bank-sdk/screen-api-example-app 
-* Test invoices: found of this repository called `test_image.png` and `test_pdf.pdf`
+
+* Guide: https://developer.gini.net/gini-mobile-ios/GiniBankSDK
+* Source code: https://github.com/gini/gini-mobile-ios/tree/main/BankSDK
+* Example app: https://github.com/gini/gini-mobile-ios/tree/main/BankSDK/GiniBankSDKExample
+* Test invoices: located in this repository called `test_image.png` and `test_pdf.pdf`
 * Credentials: will be sent via email
 * Email for questions: team-mobile@gini.net
