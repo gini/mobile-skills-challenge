@@ -20,6 +20,8 @@ We are interested in seeing how you approach integrating our SDK into an app. We
 
 Please don’t spend more than four hours on this.
 
+You can either send us your project in a zip via email or send us a link to your repository. If you use GitHub and don't want to make your repository public then please invite the following two GitHub handles to view your repository: `zladzeyka` and `a-szotyori`.
+
 Good luck solving this challenge!
 
 # Requirements
