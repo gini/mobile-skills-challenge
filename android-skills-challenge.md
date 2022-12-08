@@ -18,7 +18,9 @@ The invoice’s image is not available so you don’t need to save the image. Yo
 
 We are interested in seeing how you approach integrating our SDK into an app. We have no specific UI requirements.
 
-Please don’t spend more than four hours on this.
+Please don’t spend more than four hours on this and prioritize fulfilling the [requirements](#requirements).
+
+The challenge can be incomplete as long as it contains a short description of the next steps.
 
 You can either send us your project in a zip via email or send us a link to your repository. If you use GitHub and don't want to make your repository public then please invite the following two GitHub handles to view your repository: `zladzeyka` and `a-szotyori`.
 
@@ -27,9 +29,13 @@ Good luck solving this challenge!
 # Requirements
 
 * Use Gini Bank SDK’s Screen API to take pictures of German invoices and retrieve payment information.
-* Save the payment information for each invoice. You can use a timestamp as an identifier for the invoice.
+* Persist the payment information for each invoice using Room, SharedPreferences or any other framework. You can use a
+  timestamp as an identifier for the invoice.
 * Show a list of all invoices (without a picture).
 * When selecting an invoice then show the saved payment information.
+* Include a short description about the solution.
+* Write at least one test.
+* If you run out of time, then please add a short description of the next steps.
 
 # Resources
 * Guide: https://developer.gini.net/gini-mobile-android/bank-sdk/sdk 
